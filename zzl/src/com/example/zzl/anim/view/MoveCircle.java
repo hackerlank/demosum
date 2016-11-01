@@ -79,9 +79,8 @@ public class MoveCircle extends View {
         // 设置加速插值器AccelerateInterpolator()
         animator.setInterpolator(new AccelerateInterpolator());
         animator.setStartDelay(200);//推迟启动200毫秒
+        animator.setRepeatCount(5);
         animator.setDuration(10 * 1000).start();
     } 
-    
-    
 	
 }

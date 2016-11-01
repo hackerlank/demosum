@@ -115,7 +115,6 @@ public class AnimActivity extends Activity{
 		public float getInterpolation(float input) {
 			return (2 * input - 1) * (2 * input - 1);
 		}
-
 	}
 	 
 }

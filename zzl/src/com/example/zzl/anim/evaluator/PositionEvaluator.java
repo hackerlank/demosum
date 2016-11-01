@@ -36,9 +36,5 @@ public class PositionEvaluator implements TypeEvaluator<PointF>{
  
 		return pointF;
 	}
-	
-	 
-
-	 
-
+ 
 }
